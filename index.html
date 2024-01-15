@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+
+</head>
+<body >
+    <div class="cartTab" class="showCart">
+        <h1>Shopping Cart</h1>
+        <div class="Listcart" id="Listcart">
+            <div class="item">
+                
+            </div>
+        </div>
+        <div class="btn">
+            <button class="close" class="hidecart">CLOSE</button>
+            <button class="checkout" style="color:goldenrod;">CHECKOUT</button>
+        </div>
+    </div>
+    <navbar class="nav" id="navbar">
+        <img src="./Reslogo.jpg" alt="logo">
+        <div class="navbuttons" >
+            <div class="navbutton">HOME</div>
+            <div class="navbutton">MENU</div>
+            <div class="navbutton">ABOUT US</div>
+            <div class="navbutton">CONTACT</div>
+        </div>
+        <div class="Cart" style="margin-right: 1em;"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+          </svg>
+          <span id="itemno"class="itemno">0</span>
+        </div>
+    </navbar>
+    <div class="part2">
+        <div class="titleandsubtitle">
+            <div id="title">Giardino Delle Parole</div>
+            <div id="subtitle">Where every dish speaks a tasteful language</div>
+            <div id="ExploreMenu">EXPLORE MENU</div>
+        </div>
+        <div id="coverimg"> <img src="./Coverimg.png" id="img"></div> 
+    </div>
+    <div class="menu">
+        <div class="menutitle"><div class="mtitle2">MENU</div></div>
+        <div class="bftitle" ><i>APPETIZERS</i></div>
+        <div class="bfitems">
+            <div class="bfitem" id="1">
+                <img class="bf" src="./Bruchetta.jpg">
+                <div class="bfname">Bruschetta</div>
+                <div class="price">$3.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">An Italian antipasto consisting of grilled bread rubbed with garlic and topped with olive oil and salt.</div>
+            </div>
+            <div class="bfitem" id="2">
+                <img class="bf" src="./Sushi.jpg">
+                <div class="bfname">Sushi</div>
+                <div class="price">$4</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">A Japanese dish of prepared vinegared rice, usually with some sugar and salt, a variety of ingredients, such as seafood ,often raw,and vegetables</div>
+            </div>
+            <div class="bfitem" id="3">
+                <img class="bf" src="Ras_El_Hanout_Grilled_Pork_Skewers_0.jpg"></img>
+                <div class="bfname">Ras El Hanout</div>
+                <div class="price">$5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">Juicy pork marinated with a popular North African spice blend used throughout North Africa and especially in Morocco, and grilled.</div>
+            </div>
+            <div class="bfitem" id="4">
+                <img class="bf"src="Gambas_al_ajilo_dish_0.jpg">
+                <div class="bfname">Gambas Al Ajilo</div>
+                <div class="price">$6.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description"> Big juicy shrimp, swimming in tasty olive oil and garlic sauce. It is bright, garlicy, spicy and rich in the best way possible. Perfect with some crusty bread!
+                </div>
+            </div>
+            <div class="bfitem" id="5">
+                <img class="bf" src="Samosa.jpg">
+                <div class="bfname">Samosa</div>
+                <div class="price">$3.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">A fried South Asian pastry with a savoury filling, including ingredients such as spiced potatoes, onions, peas, meat, or fish.</div>
+            </div>
+        </div>
+        <div class="bftitle" ><i>MAIN COURSE</i></div>
+        <div class="bfitems">
+            <div class="bfitem" id="6">
+                <img class="bf" src="./Biriyani.jpg">
+                <div class="bfname">Biriyani</div>
+                <div class="price">$8</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description"> A delicious rice dish peppered with scrumptious spices like saffron and cumin and further layered with spiced meat or veggie protein.</div>
+            </div>
+            <div class="bfitem" id="7">
+                <img class="bf" src="./Steak.jpg">
+                <div class="bfname">Steak</div>
+                <div class="price">$12</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">A thick cut of meat generally sliced across the muscle fibers, sometimes including a bone</div>
+            </div>
+            <div class="bfitem" id="8">
+                <img class="bf" src="Sphagetti.jpg">
+                <div class="bfname">Sphagetti</div>
+                <div class="price">$11.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">A long, thin, solid, cylindrical pasta. Like other pasta, spaghetti is made of milled wheat, water, and sometimes enriched with vitamins and minerals.</div>
+            </div>
+            <div class="bfitem" id="9">
+                <img class="bf" src="Moussaka.jpg">
+                <div class="bfname">Moussaka</div>
+                <div class="price">$7</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">Dish of baked lamb and eggplant prepared throughout the Balkans and Middle East but most closely associated with Greece and Turkey</div>
+            </div>
+            <div class="bfitem" id="10">
+                <img class="bf" src="Ramen.jpg">
+                <div class="bfname">Ramen</div>
+                <div class="price">$9</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">A Japanese noodle dish. It consists of Chinese-style wheat noodles served in a broth; common flavors are soy sauce and miso, with typical toppings including sliced pork, nori, menma, and scallions.</div>
+            </div>
+        </div>
+        <div class="bftitle" ><i>SPECIAL BITES</i></div>
+        <div class="bfitems">
+            <div class="bfitem" id="11">
+                <img class="bf" src="./Absolute_Reality_v16_Tasty_Lasagna_0.jpg">
+                <div class="bfname">LASAGNA</div>
+                <div class="price">$5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">Lasagna can refer to either the type of noodle or to the typical lasagna dish which is a dish made with several layers of lasagna sheets with sauce and other ingredients, such as meats and cheese, in between the lasagna noodles.</div>
+            </div>
+            <div class="bfitem" id="12">
+                <img class="bf" src="./Absolute_Reality_v16_Tasty_Meatballs_0.jpg">
+                <div class="bfname">MEATBALLS</div>
+                <div class="price">$4.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">Ground meat (mince) rolled into a ball, sometimes along with other ingredients, such as bread crumbs, minced onion, eggs, butter, and seasoning</div>
+            </div>
+            <div class="bfitem" id="13">
+                <img class="bf" src="./Absolute_Reality_v16_tasty_Naporitan_dish_0.jpg">
+                <div class="bfname">Napolitan</div>
+                <div class="price">$6.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">A popular Japanese itameshi pasta dish. The dish consists of soft-cooked spaghetti, tomato ketchup, onion, button mushrooms, green peppers, sausage, bacon and optionally Tabasco sauce.</div>
+            </div>
+            <div class="bfitem" id="14">
+                <img class="bf" src="./Absolute_Reality_v16_Tasty_Tacos_0.jpg">
+                <div class="bfname"> TACOS</div>
+                <div class="price">$4.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description"> A traditional Mexican food consisting of a small hand-sized corn- or wheat-based tortilla topped with a filling.</div>
+            </div>
+            <div class="bfitem" id="15">
+                <img class="bf" src="./Absolute_Reality_v16_Tasty_white_steam_Momos_0.jpg">
+                <div class="bfname">MOMO</div>
+                <div class="price">$5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">A type of steamed filled dumpling in Tibetan and Nepali cuisine</div>
+            </div>
+        </div>
+        <div class="bftitle" ><i>DESSERT</i></div>
+        <div class="bfitems">
+            <div class="bfitem" id="16">
+                <img class="bf" src="./Absolute_Reality_v16_Gulab_Jamun_0.jpg">
+                <div class="bfname">Gulab Jamun</div>
+                <div class="price">$2</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">An Indian dessert of fried dough balls that are soaked in a sweet, sticky sugar syrup</div>
+            </div>
+            <div class="bfitem" id="17">
+                <img class="bf" src="./Absolute_Reality_v16_Donut_with_chocolate_filling_and_sprinkli_0.jpg">
+                <div class="bfname">Donut</div>
+                <div class="price">$0.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">A kind of ring-shaped snack food popular in many countries, which are usually deep fried from flour doughs. </div>
+            </div>
+            <div class="bfitem" id="18">
+                <img class="bf" src="./Absolute_Reality_v16_Rabdi_and_Jalebi_0.jpg" >
+                <div class="bfname">Rabdi and Jalebi</div>
+                <div class="price">$2.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">A funnel-cake-like treat made by piping spirals of slightly fermented batter into hot oil, and then soaking the whorls in warm sugar syrup dipped in a delightful indian Rabdi</div>
+            </div>
+            <div class="bfitem" id="19">
+                <img class="bf" src="./Absolute_Reality_v16_custard_0.jpg">
+                <div class="bfname">Custard</div>
+                <div class="price">$1.5</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">Custard is a variety of culinary preparations based on sweetened milk, cheese, or cream cooked with egg or egg yolk to thicken it, and sometimes also flour, corn starch, or gelatin</div>
+            </div>
+            <div class="bfitem" id="20">
+                <img class="bf" src="./Absolute_Reality_v16_Tiramisu_0.jpg">
+                <div class="bfname">Tiramisu</div>
+                <div class="price">$4</div>
+                <div class="addtocart">ADD TO CART</div>
+                <div class="description">Tiramisu is a coffee-flavoured Italian dessert. It is made of ladyfingers dipped in coffee, layered with a whipped mixture of eggs, sugar and mascarpone, flavoured with cocoa.</div>
+            </div>
+        </div>
+    </div>
+    <div class="reviewsec">
+        <div class="abouttitle"><div class="aboutustitle">Review</div></div>
+        <div class="reviewcomponents">
+            <div class="writereview">
+                <textarea class="typereview" cols="15" rows="10" placeholder="Enter Your Feedback" id="textarea"></textarea>
+                </div>
+            <div class="buttonsreview">
+                <input id="emailinput" type="text" placeholder="Enter Email">
+                <input id="nameinput" type="text" placeholder="Enter Name">
+                <div class="submit">SUBMIT</div>
+            </div>
+            <div class="testimonies">
+                <div id="test1" class="testimony">
+                    <div class="reviewimg1"><img class="reviewimg1" src="reviewimg1.avif"></div>
+                    <div class="reviewerinfo">
+                        <div class="reviwername">Srishti Tripathy</div>
+                        <div class="reviewdata">Such great food with beautiful colors,unique presentation and flavourful dishes combined with fast delivery. Highly recommended </div>
+                    </div>
+                </div>
+                <div id="test2" class="testimony">
+                    <div class="reviewimg1"><img class="reviewimg1" src="reviewimg2.jpeg"></div>
+                    <div class="reviewerinfo">
+                        <div class="reviwername">Gordon Ramsy</div>
+                        <div class="reviewdata"> Delicious Food with exquisite taste along with gorgeous presentation. A delight in my opinion </div>
+                    </div>
+                </div>
+                <div id="test3" class="testimony">
+                    <div class="reviewimg1"><img class="reviewimg1" src="reviewimg3.jpeg"></div>
+                    <div class="reviewerinfo">
+                        <div class="reviwername">Sidhartha Swain</div>
+                        <div class="reviewdata"> Such a wonderful site with tasty food. ummmmmm lovely </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <div class="aboutus">
+        <div class="abouttitle"><div class="aboutustitle">About US</div></div>
+        <div class="aboutussec">
+            <div class="abouttextimg">
+                <img src="aboutimg1.jpg" class="abtimg">
+                <div class="History">Welcome to the beautiful garden where your words are given flavour by our masterful chefs.Our restaurant was founded by Yukari Yukino in 1978. Eating ambience and customer satisfaction are core values aloong with sustainabale managment of food and environment </div> 
+            </div>
+            <div class="abouttextimg">
+                <img src="aboutimg2.png" class="abtimg">
+                <div class="History">The name of the restaurant translates to Garden of Words which is named so by our founder based upon her experience of unrequited love in japan. Their exchange of words in a beautiful garden of shinjuku saved both of them during a critical stage of life and lead to the name of the restaurant</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerlinks">
+            <a>Terms and Conditions</a>
+            <a>Privacy Policy</a>
+            <a>Copyright Information</a>
+        </div>
+        <div class="sociallinks">
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
+        </div>
+    </footer>
+<script src="first.js"></script>
+</body>
+</html>
